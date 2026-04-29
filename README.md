@@ -1,6 +1,6 @@
 # OMBPT
 
-# Oral Microbiome Drug Prioritization
+# Oral Microbiome Precision Therapeutics
 
 This repository contains a machine learning workflow for analyzing oral microbiome species abundance data and prioritizing drug-like compounds for potential therapeutic screening.
 
@@ -16,21 +16,6 @@ The project combines two datasets:
 
 The goal is to identify a bacterial species of interest from the oral microbiome dataset and use supervised machine learning to rank drug candidates based on predicted category.
 
-## Repository Title Recommendation
-
-Recommended GitHub repo name:
-
-```text
-oral-microbiome-drug-prioritization
-```
-
-Alternative names:
-
-```text
-oral-microbiome-precision-therapeutics
-microbiome-ml-drug-screening
-oral-microbiome-therapeutic-ranking
-```
 
 ## Methods
 
@@ -92,21 +77,6 @@ The final output is:
 outputs/top_100_drug_candidates.csv
 ```
 
-## Key Outputs
-
-The notebook creates the following output files:
-
-```text
-outputs/top_25_oral_microbiome_species.csv
-outputs/top_25_species_abundance.png
-outputs/single_split_model_results.csv
-outputs/repeated_split_model_results.csv
-outputs/accuracy_summary_with_ci.csv
-outputs/model_accuracy_comparison_ci_band.png
-outputs/best_model_confusion_matrix.png
-outputs/top_100_drug_candidates.csv
-```
-
 ## How to Run
 
 1. Open the notebook in Google Colab or Jupyter Notebook.
@@ -129,4 +99,3 @@ This project is a computational screening workflow. The ranked compounds are not
 - Model comparison
 - Confidence interval visualization
 - Drug candidate ranking
-- GitHub-ready project organization
